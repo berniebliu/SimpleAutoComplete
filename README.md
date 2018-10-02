@@ -7,4 +7,4 @@
 - npm install 
 - npm run dev 
 
-* Note the VueJS Application assumes that server runs on localhost:8080 
+(Note that the VueJS Application assumes that server runs on localhost:8080)
