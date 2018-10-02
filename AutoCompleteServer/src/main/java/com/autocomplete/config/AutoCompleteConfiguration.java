@@ -16,7 +16,7 @@ public class AutoCompleteConfiguration extends Configuration {
     private String defaultWord = "";
 
     @JsonProperty
-    public String getDefaultName() {
+    public String getDefaultWord() {
         return defaultWord;
     }
 

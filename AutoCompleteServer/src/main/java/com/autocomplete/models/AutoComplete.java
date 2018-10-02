@@ -1,7 +1,6 @@
 package com.autocomplete.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.hibernate.validator.constraints.Length;
 
 import java.util.List;
 
