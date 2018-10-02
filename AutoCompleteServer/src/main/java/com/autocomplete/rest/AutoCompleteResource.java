@@ -1,10 +1,10 @@
 package com.autocomplete.rest;
 
 /**
- * Created by e30462 on 9/25/18.
+ * Created by Bernie on 9/25/18.
  */
 /**
- * Created by e30462 on 9/25/18.
+ * Created by Bernie on 9/25/18.
  */
 
 import com.autocomplete.models.Trie;

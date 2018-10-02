@@ -1,7 +1,7 @@
 package com.autocomplete.rest;
 
 /**
- * Created by e30462 on 9/27/18.
+ * Created by Bernie on 9/27/18.
  */
 import java.io.IOException;
 import javax.ws.rs.container.*;

@@ -10,13 +10,15 @@ import org.eclipse.jetty.servlets.CrossOriginFilter;
 
 import javax.servlet.DispatcherType;
 import javax.servlet.FilterRegistration;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.EnumSet;
 
 /**
- * Created by e30462 on 9/25/18.
+ * Created by Bernie on 9/25/18.
  */
 public class AutoCompleteApplication extends Application<AutoCompleteConfiguration> {
-    private static final String NAMES_CSV_DIR = "/Users/e30462/Desktop/LearningPlayground/SimpleAutoComplete/AutoCompleteServer/src/main/resources/CSV_Database_of_First_Names.csv";
+    private static final String NAMES_CSV_DIR = "/src/main/resources/CSV_Database_of_First_Names.csv";;
     private static Trie nameTrie;
     private static AutoCompleteApplication instance = new AutoCompleteApplication();
 
@@ -31,7 +33,7 @@ public class AutoCompleteApplication extends Application<AutoCompleteConfigurati
 
     public static void initialize() {
         nameTrie = new Trie();
-        nameTrie.loadCSVFileIntoTrie(NAMES_CSV_DIR);
+        nameTrie.loadCSVFileIntoTrie(Paths.get("").toAbsolutePath().toString() + NAMES_CSV_DIR);
     }
 
     public static AutoCompleteApplication getInstance() {

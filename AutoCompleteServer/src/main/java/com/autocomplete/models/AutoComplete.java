@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 
 /**
- * Created by e30462 on 9/25/18.
+ * Created by Bernie on 9/25/18.
  */
 public class AutoComplete {
 

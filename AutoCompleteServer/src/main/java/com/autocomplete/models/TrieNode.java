@@ -3,7 +3,7 @@ package com.autocomplete.models;
 import java.util.*;
 
 /**
- * Created by e30462 on 9/26/18.
+ * Created by Bernie on 9/26/18.
  */
 public class TrieNode {
     private Map<Character, TrieNode> map;

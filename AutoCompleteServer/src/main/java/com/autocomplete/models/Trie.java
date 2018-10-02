@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 /**
- * Created by e30462 on 9/26/18.
+ * Created by Bernie on 9/26/18.
  */
 public class Trie {
 
